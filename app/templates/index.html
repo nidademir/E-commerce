@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+		<div class="body">
+			<div class="featured">
+				<a href="{{ url_for('Signup') }}"><img src="/static/images/advertisement.jpg" alt=""/></a>
+				<div class="gallery">
+					<a href="{{ url_for('NewArrival') }}"><img src="/static/images/aurora.jpg" alt=""/></a>
+					<ul class="first">
+						<li><a href="{{ url_for('NewArrival') }}"><img src="/static/images/summer-collection.jpg" alt=""/></a></li>
+						<li><a href="{{ url_for('NewArrival') }}"><img src="/static/images/beach-bride.jpg" alt=""/></a></li>
+						<li><a href="{{ url_for('NewArrival') }}"><img src="/static/images/motherhood-apparel.jpg" alt=""/></a></li>
+					</ul>
+					<ul>
+						<li><a href="{{ url_for('NewArrival') }}"><img src="/static/images/fashionable.jpg" alt=""/></a></li>
+						<li><a href="{{ url_for('NewArrival') }}"><img src="/static/images/accessories.jpg" alt=""/></a></li>
+						<li><a href="{{ url_for('NewArrival') }}"><img src="/static/images/skin-perfect.jpg" alt=""/></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="article">
+				<div class="first">
+					<h3> </h3>
+					<p> </p>
+					<p> </p>
+					<p> </p>
+					<p> </p>
+				</div>
+				<div>
+					<h3> </h3>
+					<p> </p>
+					<a> </a>
+					<a> </a>
+				</div>
+			</div>
+		</div>
+{% endblock %}
